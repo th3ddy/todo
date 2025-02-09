@@ -10,11 +10,14 @@ export const TodoList = async () => {
     <section>
       {data.map((item) => {
         return (
-          <div key={item._id} className="flex gap-2">
-            <Link href={`/todos/${item._id}`}>
-              {item.description} -{item.batch}
-            </Link>
-            <TodoDelete id={item._id} />
+          <div className="">
+            <div key={item._id} className="flex gap-2">
+              <Link href={`/todos/${item._id}`}>
+                Unit : {item.unit} / Batch :{item.batch} / Message :
+                {item.description}
+              </Link>
+              <TodoDelete id={item._id} />
+            </div>
           </div>
         );
       })}
