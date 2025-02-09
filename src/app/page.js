@@ -15,9 +15,11 @@ export default async function Home() {
   return (
     <main className="space-y-4 p-6">
       <section>
-        <h3 className="text-lg font-semibold tracking-tight">Error Coretax</h3>
+        <h3 className="text-5xl font-semibold tracking-tight">Coretax</h3>
+        <h3 className="text-lg font-semibold tracking-tight text-red-600">
+          Coretax changes your life !!!
+        </h3>
         <p className="text-sm font-semibold tracking-tight">
-          {" "}
           Silakan masukkan pesan error saat import atau validasi data pada
           sistem Coretax
         </p>

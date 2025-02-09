@@ -27,7 +27,7 @@ export default async function Home({ params }) {
           />
           <div className="space-y-2">
             <Link href="/">
-              <button>BACK</button>
+              <button>Home</button>
             </Link>
           </div>
         </div>
